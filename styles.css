@@ -1,0 +1,417 @@
+/* Start writing your CSS here!*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media (min-width: 1024px) {
+
+
+    :root
+    {
+        font-size: 16px;
+    }
+
+    *
+    {
+        background-color: #16161d;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    body::-webkit-scrollbar
+    {
+        width: 0.45rem;
+    }
+    body::-webkit-scrollbar-track
+    {
+        background: #121217;
+    }
+    body::-webkit-scrollbar-thumb
+    {
+        background: #22222d;
+    }
+
+
+
+    #desc
+    {
+        margin-top: auto;
+        font-size: 1rem;
+        opacity: 1;
+        
+        
+    }
+
+    #logo
+    {
+        width: 20rem;
+    }
+
+    .logo-title
+    {
+        margin: 4rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .underline
+    {
+        width: 10rem;
+        margin-top: -1.4rem;
+        border-radius: 50rem;
+        border: solid;
+    }
+
+    .line
+    {
+        width: 15rem;
+        margin-top: -0.4rem;
+        border-radius: 50rem;
+        border: solid;
+    }
+
+    .body-text
+    { 
+        margin-top: 16rem;
+        text-align: center;
+    }
+
+
+
+    .body-text, #p, #h1
+    {
+        background-color: #1a1a21;     
+    }
+
+    #p, #h1
+    {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
+    #eg1, #eg2
+    {
+        width: 24rem;
+        border: solid;
+        border-color: #22222b;
+        
+    }
+
+    #eg2
+    {
+        width: 24.6rem;
+    }
+
+    /*#capeg1
+    {
+        
+        font-weight: bold;
+        font-size: 2rem;
+        margin-left: 8.5rem;
+
+    }*/
+
+    .container
+    {
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        display: flex;
+        height: 10%;
+        width: 50%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .advantages, #compare
+    {
+
+        
+        /*margin: 4rem;*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #compare
+    {
+        
+        text-align: center;
+        padding-top: 1%;
+        
+        font-weight: bold;
+    }
+
+    #pos
+    {
+        font-weight: bold;
+        cursor: context-menu;
+        color: #2ecc71;
+        
+    }
+
+
+
+    #neg
+    {
+        font-weight: bold;
+        cursor: context-menu;
+        color: #e74c3c;
+    }
+
+    img
+    {
+        transition: 0.2s ease;
+    }
+
+    img:hover
+    {
+        transform: scale(1.1);
+        transition: 0.2s ease;
+    }
+
+    footer, #foot
+    {
+        margin-top: 4rem;
+        text-align: center;
+        
+        background-color: #14141b;
+        height: 50px;
+        margin-bottom: 2px;
+        
+    }
+
+    #foot
+    {
+        font-weight: bold;
+        opacity: 0.1;
+        padding-top: 1rem;
+    }
+}
+
+/* *********************
+************************
+************************
+
+
+PHONE PAR
+
+************************
+************************
+************************
+*/
+
+@media (max-width: 1024px) {
+
+
+    :root
+    {
+        font-size: 16px;
+    }
+
+    *
+    {
+        background-color: #16161d;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    body::-webkit-scrollbar
+    {
+        width: 0.45rem;
+    }
+    body::-webkit-scrollbar-track
+    {
+        background: #121217;
+    }
+    body::-webkit-scrollbar-thumb
+    {
+        background: #22222d;
+    }
+
+
+
+    #desc
+    {
+        margin-top: auto;
+        font-size: 1rem;
+        opacity: 1;
+        
+        
+    }
+
+    #logo
+    {
+        width: 20rem;
+    }
+
+    .logo-title
+    {
+        margin: 4rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .underline
+    {
+        width: 10rem;
+        margin-top: -1.4rem;
+        border-radius: 50rem;
+        border: solid;
+    }
+
+    .line
+    {
+        width: 15rem;
+        margin-top: -0.4rem;
+        border-radius: 50rem;
+        border: solid;
+    }
+
+    .body-text
+    { 
+        margin-top: 16rem;
+        text-align: center;
+    }
+
+
+
+    .body-text, #p, #h1
+    {
+        background-color: #1a1a21;     
+    }
+
+    #p, #h1
+    {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+
+    #eg1, #eg2
+    {
+        width: 18rem;
+        border: solid;
+        border-color: #22222b;
+        
+    }
+
+    #eg2
+    {
+        width: 18.6rem;
+    }
+
+    /*#capeg1
+    {
+        
+        font-weight: bold;
+        font-size: 2rem;
+        margin-left: 8.5rem;
+
+    }*/
+
+    .container
+    {
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        display: flex;
+        height: 10%;
+        width: 50%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .advantages, #compare
+    {
+
+        
+        /*margin: 4rem;*/
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #compare
+    {
+        
+        text-align: center;
+        padding-top: 1%;
+        
+        font-weight: bold;
+    }
+
+    #pos
+    {
+        font-weight: bold;
+        cursor: context-menu;
+        color: #2ecc71;
+        
+    }
+
+
+
+    #neg
+    {
+        font-weight: bold;
+        cursor: context-menu;
+        color: #e74c3c;
+    }
+
+    img
+    {
+        transition: 0.2s ease;
+    }
+
+    img:hover
+    {
+        transform: scale(1.1);
+        transition: 0.2s ease;
+    }
+
+    footer, #foot
+    {
+        margin-top: 4rem;
+        text-align: center;
+        
+        background-color: #14141b;
+        height: 50px;
+        margin-bottom: 2px;
+        
+    }
+
+    #foot
+    {
+        font-weight: bold;
+        opacity: 0.1;
+        padding-top: 1rem;
+    }
+}
+
+
+
